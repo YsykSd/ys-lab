@@ -124,7 +124,7 @@ ul, ol { margin: 0; padding: 0; }
 }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); min-width: 0; }
 .brand:hover { color: var(--ink); }
-.brand-mark { width: 44px; height: 44px; flex: none; }
+.brand-mark { width: 52px; height: 52px; flex: none; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.35; min-width: 0; }
 .brand-name { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: 0.04em; }
 .brand-sub { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.06em; }
@@ -408,7 +408,7 @@ td a { font-weight: 500; }
 .footer-grid { display: grid; gap: 28px; padding-block: 40px 28px; }
 @media (min-width: 900px) { .footer-grid { grid-template-columns: 1.2fr 1fr 1fr; } }
 .footer-brand { display: flex; gap: 12px; align-items: flex-start; }
-.footer-brand .brand-mark { width: 40px; height: 40px; }
+.footer-brand .brand-mark { width: 48px; height: 48px; }
 .footer-brand address { font-style: normal; font-size: 0.85rem; color: var(--muted); line-height: 1.8; }
 .footer-brand strong { display: block; color: var(--ink); font-family: var(--font-display); font-size: 1rem; }
 .footer-col h2 { font-size: 0.8rem; font-family: var(--font-mono); letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; margin-bottom: 10px; font-weight: 500; }
