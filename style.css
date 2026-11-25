@@ -474,3 +474,11 @@ td a { font-weight: 500; }
 .list-toolbar .filters { margin-bottom: 0; }
 .list-toolbar .pub-legend { margin: 0 0 0 auto; text-align: right; }
 @media (max-width: 560px) { .list-toolbar .pub-legend { margin-left: 0; text-align: left; } }
+
+/* Join page: international students */
+.intl-grid { display: grid; gap: 16px; }
+@media (min-width: 820px) { .intl-grid { grid-template-columns: 1fr 1fr; } }
+.intl-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; display: flex; flex-direction: column; gap: 8px; }
+.intl-card h3 { font-size: 1.05rem; color: var(--green-strong); }
+.intl-card p { color: var(--muted); font-size: 0.95rem; line-height: 1.8; }
+.sub-sub { font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; color: var(--ink); margin: 0 0 10px; }
